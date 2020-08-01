@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ad364585b33fc90cb1b6ab4f0c373af",
+    "revision": "99ec0510f550b6653e58e5ed1c6d13d7",
     "url": "/react-parallax-vercel/index.html"
   },
   {
-    "revision": "f4dff95631ea549ba40b",
+    "revision": "90870dfbd262694bc353",
     "url": "/react-parallax-vercel/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "ffa3c45d577d711dba56",
+    "revision": "60d076e7c39ce7858f4a",
     "url": "/react-parallax-vercel/static/css/main.10e5e0d9.chunk.css"
   },
   {
-    "revision": "f4dff95631ea549ba40b",
-    "url": "/react-parallax-vercel/static/js/2.292ac8d1.chunk.js"
+    "revision": "90870dfbd262694bc353",
+    "url": "/react-parallax-vercel/static/js/2.bab4f868.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/react-parallax-vercel/static/js/2.292ac8d1.chunk.js.LICENSE.txt"
+    "url": "/react-parallax-vercel/static/js/2.bab4f868.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffa3c45d577d711dba56",
-    "url": "/react-parallax-vercel/static/js/main.832fbc98.chunk.js"
+    "revision": "60d076e7c39ce7858f4a",
+    "url": "/react-parallax-vercel/static/js/main.31b0a68a.chunk.js"
   },
   {
     "revision": "fb316d8d224ffe4241c9",
