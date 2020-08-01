@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-parallax-vercel/static/css/main.10e5e0d9.chunk.css",
+    "main.js": "/react-parallax-vercel/static/js/main.832fbc98.chunk.js",
+    "main.js.map": "/react-parallax-vercel/static/js/main.832fbc98.chunk.js.map",
+    "runtime-main.js": "/react-parallax-vercel/static/js/runtime-main.b310b4dc.js",
+    "runtime-main.js.map": "/react-parallax-vercel/static/js/runtime-main.b310b4dc.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/react-parallax-vercel/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.292ac8d1.chunk.js": "/react-parallax-vercel/static/js/2.292ac8d1.chunk.js",
+    "static/js/2.292ac8d1.chunk.js.map": "/react-parallax-vercel/static/js/2.292ac8d1.chunk.js.map",
+    "index.html": "/react-parallax-vercel/index.html",
+    "precache-manifest.0f32f0480a7917a29cbf6bc87f494a5a.js": "/react-parallax-vercel/precache-manifest.0f32f0480a7917a29cbf6bc87f494a5a.js",
+    "service-worker.js": "/react-parallax-vercel/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/react-parallax-vercel/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.10e5e0d9.chunk.css.map": "/react-parallax-vercel/static/css/main.10e5e0d9.chunk.css.map",
+    "static/js/2.292ac8d1.chunk.js.LICENSE.txt": "/react-parallax-vercel/static/js/2.292ac8d1.chunk.js.LICENSE.txt",
+    "static/media/bg-1.png": "/react-parallax-vercel/static/media/bg-1.8e43a7a4.png",
+    "static/media/carousel-1.png": "/react-parallax-vercel/static/media/carousel-1.23be9423.png",
+    "static/media/carousel-2.jpg": "/react-parallax-vercel/static/media/carousel-2.1a44c975.jpg",
+    "static/media/carousel-3.png": "/react-parallax-vercel/static/media/carousel-3.0686d44d.png",
+    "static/media/logo-kodemia.png": "/react-parallax-vercel/static/media/logo-kodemia.89b0fc52.png",
+    "static/media/preview-messebau-virtual.png": "/react-parallax-vercel/static/media/preview-messebau-virtual.9583c1e0.png",
+    "static/media/preview-messebau.png": "/react-parallax-vercel/static/media/preview-messebau.4b55689d.png",
+    "static/media/preview-skillup.png": "/react-parallax-vercel/static/media/preview-skillup.26bd0e6a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b310b4dc.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.292ac8d1.chunk.js",
+    "static/css/main.10e5e0d9.chunk.css",
+    "static/js/main.832fbc98.chunk.js"
+  ]
+}
