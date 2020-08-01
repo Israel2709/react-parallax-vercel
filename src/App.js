@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Parallax, Background } from 'react-parallax'
 import { Container, Row, Col } from 'reactstrap'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import Carousel from 'react-bootstrap/Carousel'
 import logoProto from './static/img/logo-proto.png'
 import logoKodemia from './static/img/logo-kodemia.png'
@@ -33,16 +34,23 @@ function App() {
                   <span className="ml-4">Full-Stack Developer</span>
                 </h3>
                 <div className="btn-wrapper d-flex flex-column justify-content-between mt-4 flex-md-row">
-                  <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Acerca de mí</div>
-                  <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Proyectos</div>
-                  <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Contáctame</div>
+                  <Link to="about" smooth={true}>
+                    <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Acerca de mí</div>
+                  </Link>
+                  <Link to="projects" smooth={true}>
+                    <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Proyectos</div>
+                  </Link>
+                  <Link to="contact" smooth={true}>
+                    <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Contáctame</div>
+                  </Link>
+
                 </div>
               </div>
             </Col>
           </Row>
         </Container>
       </Parallax>
-      <Container className="h-100-vh">
+      <Container id="about" className="h-100-vh" >
         <Row className="h-100">
           <Col xs='12' md='6' className="d-flex flex-column justify-content-center">
             <h3 className="mb-5">Sobre mí</h3>
@@ -75,7 +83,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="bg-gray">
+      <Container fluid id="projects" className="bg-gray h-100-vh">
         <Row>
           <Col xs="12">
             <Container>
@@ -98,11 +106,11 @@ function App() {
                 <Col xs="12" md="4">
                   <div className="project-wrapper">
                     <a href="https://www.messebaulatam.com/newsite/">
-                    <img className="w-100" src="https://picsum.photos/500" target="_blank" alt="" />
-                    <div className="project-caption">
-                      <h3 className="project-title text-center">Messebau Virtual Website</h3>
-                      <h4 className="project-technologies text-center">HTML, CSS, JQuery</h4>
-                    </div>
+                      <img className="w-100" src="https://picsum.photos/500" target="_blank" alt="" />
+                      <div className="project-caption">
+                        <h3 className="project-title text-center">Messebau Virtual Website</h3>
+                        <h4 className="project-technologies text-center">HTML, CSS, JQuery</h4>
+                      </div>
                     </a>
                   </div>
                 </Col>
