@@ -42,6 +42,9 @@ function App() {
                   <Link to="projects" smooth={true}>
                     <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Proyectos</div>
                   </Link>
+                  <Link to="contact" smooth={true}>
+                    <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Contáctame</div>
+                  </Link>
                 </div>
               </div>
             </Col>
