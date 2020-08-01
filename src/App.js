@@ -9,16 +9,18 @@ import logoKodemia from './static/img/logo-kodemia.png'
 import slide1 from './static/img/carousel-1.png'
 import slide2 from './static/img/carousel-2.jpg'
 import slide3 from './static/img/carousel-3.png'
+import preview1 from './static/img/preview-messebau.png'
+import preview2 from './static/img/preview-skillup.png'
+import preview3 from './static/img/preview-messebau-virtual.png'
+
 
 function App() {
   return (
     <div className="App">
-
       <Parallax
         bgImage={require('./static/img/bg-1.png')}
         bgImageAlt="the cat"
         strength={850}
-
       >
         <Container style={{ height: '100vh' }}>
           <Row className='h-100'>
@@ -43,7 +45,6 @@ function App() {
                   <Link to="contact" smooth={true}>
                     <div className="btn btn-secondary flex-grow-1 mx-3 mb-2">Contáctame</div>
                   </Link>
-
                 </div>
               </div>
             </Col>
@@ -94,19 +95,31 @@ function App() {
               </Row>
               <Row>
                 <Col xs="12" md="4">
-                  <div className="project-wrapper">
-                    <img className="w-100" src="https://picsum.photos/500" alt="" />
+                <div className="project-wrapper">
+                    <a href="https://www.messebaulatam.com" target="_blank">
+                      <img className="w-100" src={preview1} target="_blank" alt="" />
+                      <div className="project-caption">
+                        <h3 className="project-title text-center">Messebau Virtual Website</h3>
+                        <h4 className="project-technologies text-center">HTML, CSS, JQuery</h4>
+                      </div>
+                    </a>
+                  </div>
+                </Col>
+                <Col xs="12" md="4">
+                <div className="project-wrapper">
+                    <a href="https://www.kodemia.mx/skillup" target="_blank">
+                      <img className="w-100" src={preview2} target="_blank" alt="" />
+                      <div className="project-caption">
+                        <h3 className="project-title text-center">Messebau Virtual Website</h3>
+                        <h4 className="project-technologies text-center">HTML, CSS, JQuery</h4>
+                      </div>
+                    </a>
                   </div>
                 </Col>
                 <Col xs="12" md="4">
                   <div className="project-wrapper">
-                    <img className="w-100" src="https://picsum.photos/500" alt="" />
-                  </div>
-                </Col>
-                <Col xs="12" md="4">
-                  <div className="project-wrapper">
-                    <a href="https://www.messebaulatam.com/newsite/">
-                      <img className="w-100" src="https://picsum.photos/500" target="_blank" alt="" />
+                    <a href="https://www.messebaulatam.com/newsite/" target="_blank">
+                      <img className="w-100" src={preview3}  alt="" />
                       <div className="project-caption">
                         <h3 className="project-title text-center">Messebau Virtual Website</h3>
                         <h4 className="project-technologies text-center">HTML, CSS, JQuery</h4>

@@ -22,6 +22,10 @@ body {
   width: 30px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .btn-secondary {
   background: none;
   border: 1px solid #7b88a8;
@@ -33,9 +37,57 @@ body {
   color: white;
 }
 
+.project-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 .project-wrapper img {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+}
+
+.project-wrapper .project-caption {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: top .5s ease;
+  transition: top .5s ease;
+  z-index: 1000;
+}
+
+.project-wrapper .project-caption .project-title {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px black;
+}
+
+.project-wrapper .project-caption .project-technologies {
+  font-size: 1rem;
+  text-shadow: 1px 1px 3px black;
+}
+
+.project-wrapper:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity .5s ease;
+  transition: opacity .5s ease;
 }
 
 .project-wrapper:hover {
@@ -43,15 +95,15 @@ body {
 }
 
 .project-wrapper:hover img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(100%) blur(1px);
+          filter: grayscale(100%) blur(1px);
 }
 
-.project-wrapper .project-title {
-  font-size: 1.5rem;
+.project-wrapper:hover .project-caption {
+  top: 0;
 }
 
-.project-wrapper .project-technologies {
-  font-size: 1rem;
+.project-wrapper:hover:after {
+  opacity: 1;
 }
 /*# sourceMappingURL=App.css.map */
